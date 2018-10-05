@@ -104,13 +104,31 @@
                         <label for="icon_prefix" path="nombre" value=""><c:out value="${usual.cedula}"/></label>                        
                     </div>
                 </div>     
+                  
+                    <h5 class="container">Fecha</h5>
+            
+            <div class="container">
+                <div class="row">
+                    <form>    
+                    <input type="date" class="datepicker">
+                    <input type="time" class="datepicker">
+                </form>
+                </div>    
+            </div>  
             </form>  
                     
             </c:forEach> 
-            <h5>FEcha</h5>
+            <h5 class="container">Fecha</h5>
+            
+            <div class="container">
+                <div class="row">
+                    <form>    
+                    <input type="date" class="datepicker">
+                    <input type="time" class="datepicker">
+                </form>
+                </div>    
+            </div>    
                 
-            <input type="text" class="datepicker">                  
-        
             <script>
                 document.addEventListener('DOMContentLoaded', function() {
                  var elems = document.querySelectorAll('.datepicker');
